@@ -1,10 +1,10 @@
-//regular function
+// regular function
 // const calcArea=function(area)
 // {
 //     return 3.14*radius**2;
 // }
 
-//arrow functions
+// arrow functions
 // const calcArea=(radius)=>//more than 1 parametr we use () for that if it is one like let area=radius no braces needed
 
 // {
