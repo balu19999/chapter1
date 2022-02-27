@@ -39,3 +39,51 @@
 // user.login();
 // user.logout();
 // user.logHobs();
+
+// let user={//this is an object
+//          name:'balu',//properties
+//          age:23,//properties
+//          email:'balu@gmail.com',//properties
+//          phone:'9449366255',//properties
+//          hobbies:[{title:'playing badminton',likes:10},{title:'cycling watching movies',likes:30}],//creating object inside an array
+//     login: function(){
+//              console.log('user logged in');
+//          },
+//          logout:function(){
+//              console.log('user logged out');
+//          },
+//          logHobs:function(){
+//              console.log('this user has some hobbies like');
+//              this.hobbies.forEach(hobby=> 
+//                  {
+//                 console.log(hobby.title,hobby.likes);            
+//              });
+    
+//          }
+//      };
+//      user.login();
+//  user.logout();
+//      user.logHobs();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
