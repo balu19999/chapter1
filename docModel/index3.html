@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script> <!--core react library -->
+<script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script><!--react dom library-->
+    <title>Document</title>
+</head>
+<body>
+    <div id="app"></div>
+    <script type="text/babel">
+        class App extends React.Component { 
+          state={
+              name:'balu',
+              age:36
+          }
+         // handleClick(e){
+              //console.log(this.state); //so this gives us an error
+              handleClick=(e)=>{
+                  this.setState({//used to re initialize or change the state properties
+                      name:'pruthvi',
+                      age:29
+                  });
+                console.log(this.state);//this gives an output 
+
+          }
+          handleHover(e){
+              console.log(e.target,e.pageX);
+          }
+          oncopy(e)
+          {
+              console.log('try to create your own');
+          }
+
+          render(){
+                   return (<div className="app-content">
+                    <h1>hi hello</h1>
+                    <p>my name is{this.state.name} and iam {this.state.age}
+                        </p>
+                        <button onClick={this.handleClick}>click me</button>
+                        <button onMouseOver={this.handleHover}>hover</button>
+                        <p onCopy={this.oncopy}>hai hello namaskara</p>
+                    </div>)
+                 }
+        }
+     ReactDOM.render(<App />,document.getElementById('app'));
+
+    </script>
+</body>
+</html>
