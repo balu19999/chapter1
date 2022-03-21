@@ -9,12 +9,12 @@
 
 
 //reference types
- let user1={name:'balu',age:23};
- let user2=user1;
+//  let user1={name:'balu',age:23};
+//  let user2=user1;
 
- console.log(user1,user2);
+//  console.log(user1,user2);
  
- user1.name='pruthvi';
- console.log(user1,user2);//in reference if we change the one value another object also points to the same value because it store in heap area
+//  user1.name='pruthvi';
+//  console.log(user1,user2);//in reference if we change the one value another object also points to the same value because it store in heap area
  
 
